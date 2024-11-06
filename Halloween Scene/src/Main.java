@@ -31,7 +31,8 @@ public class Main extends JPanel implements KeyListener {
             .Gravity(false)
             .gravityDirection(ParticleSettings.GRAVITY_UP)
             .Position(new vec2(310 + 71, 200+y_off))
-            .maxOffset(60).lifeSpan(1)
+            .maxOffset(60)
+            .lifeSpan(1)
             .Damping(1.0)
             .particleVelocity(new vec2(0, -3))
             .maxParticles(3));
